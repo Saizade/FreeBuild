@@ -1,5 +1,7 @@
 # ✨ FreeBuild — AI-Powered Website Builder
 
+> 🔗 **Live Demo:** [https://two-websitebuilder-1-oxrp.onrender.com/](https://two-websitebuilder-1-oxrp.onrender.com/)
+
 FreeBuild is a full-stack, AI-powered web application that allows users to instantly generate fully custom, responsive, and functional web pages using natural language prompts. Built on a modern tech stack (React + Node/Express + MongoDB + Stripe), FreeBuild simplifies website creation by automatically producing raw HTML, CSS, and JS code through LLMs and offering a live, interactive editor to refine the results.
 
 ---
