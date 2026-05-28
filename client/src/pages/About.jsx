@@ -173,12 +173,22 @@ export default function About() {
         >
           <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className='text-4xl md:text-5xl mb-5'>Ready to build?</h2>
           <p className='text-zinc-400 mb-8'>Your first website is free. No credit card required.</p>
-          <button
-            onClick={() => navigate("/generate")}
-            className='flex items-center gap-2 mx-auto px-8 py-4 rounded-xl bg-amber-400 text-black font-semibold hover:bg-amber-300 transition hover:scale-105'
-          >
-            Build My Website <ArrowRight size={16} />
-          </button>
+          <div className='flex flex-col sm:flex-row items-center justify-center gap-4'>
+            <button
+              onClick={() => navigate("/generate")}
+              className='flex items-center gap-2 px-8 py-4 rounded-xl bg-amber-400 text-black font-semibold hover:bg-amber-300 transition hover:scale-105'
+            >
+              Build My Website <ArrowRight size={16} />
+            </button>
+            <a
+              href="https://two-websitebuilder-1-oxrp.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className='flex items-center gap-2 px-8 py-4 rounded-xl border border-white/20 hover:border-amber-400/50 hover:bg-white/5 transition hover:scale-105 text-white font-semibold'
+            >
+              View Live Demo
+            </a>
+          </div>
         </motion.div>
       </section>
 
